@@ -46,9 +46,54 @@
 		    <div class="col-md-4 col-sm-4">
 		      <div class="metric participation" data-ratio=".95">
 		        <svg viewBox="0 0 1000 500">
-			        <path d="M 950 500 A 450 450 0 0 0 50 500"></path>
-					<text class='percentage' text-anchor="middle" alignment-baseline="middle" x="500" y="300" font-size="140" font-weight="bold">0%</text>
-					<text class='title' text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal"></text>
+			        <path
+				       sodipodi:nodetypes="ccccc"
+				       d="m 3.5907731,3.9876487 h 6.331101 l -3.165551,2.7403272 v 0 z"
+				       style="fill:#000000;stroke-width:0.18733"
+				       id="rect15" />
+				    <rect
+				       style="fill:#ff0000;fill-rule:evenodd;stroke-width:0.0697685"
+				       id="rect10"
+				       width="17.764341"
+				       height="3.3150086"
+				       x="3.8333664"
+				       y="7.4154186" />
+				    <rect
+				       style="fill:#ffff00;stroke-width:0.0652905"
+				       id="rect12"
+				       width="19.348097"
+				       height="3.3150086"
+				       x="21.597712"
+				       y="7.4154186" />
+				    <rect
+				       style="fill:#00ff00;stroke-width:0.0740249"
+				       id="rect14"
+				       width="15.813202"
+				       height="3.3150094"
+				       x="40.945805"
+				       y="7.4154167" />
+				    <text
+				       id="text20"
+				       y="14.268601"
+				       x="3.6852679"
+				       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+				       xml:space="preserve"><tspan
+				         style="font-size:3.52778px;stroke-width:0.264583"
+				         y="14.268601"
+				         x="3.6852679"
+				         id="tspan18"
+				         sodipodi:role="line">0%</tspan></text>
+				    <text
+				       xml:space="preserve"
+				       style="font-style:normal;font-weight:normal;font-size:3.52777px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+				       x="46.409382"
+				       y="14.510739"
+				       id="text20-4"><tspan
+				         sodipodi:role="line"
+				         id="tspan18-7"
+				         x="46.409382"
+				         y="14.510739"
+				         style="font-size:3.52777px;stroke-width:0.264583">100%</tspan></text>
   	            </svg>
 		      </div>
 		    </div>
@@ -80,8 +125,9 @@
 
 			
 			if(rounded >=0 && rounded <=100) {
-				this.$style.innerHTML = ':host {border-radius: 10px;border-width: 2px;border-color: black;border-style: solid;display: block;}.body {background: #fff;}.metric {padding: 10%;}.metric svg {max-width: 100%;}.metric path {stroke-width: 75;stroke: #ecf0f1;fill: none;}.metric text {font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;}.metric.participation path.data-arc {stroke: ' + color + ';}.metric.participation text {fill: ' + color + ';}';
-				this.$svg.innerHTML = '<path d="M 950 500 A 450 450 0 0 0 50 500"></path><text class="percentage" text-anchor="middle" alignment-baseline="middle" x="500" y="300" font-size="140" font-weight="bold">' + rounded + '%</text><text class="title" text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal">' + info + '</text><path d="' + x + '" class="data-arc"></path>"';
+				console.log("test");
+				//this.$style.innerHTML = ':host {border-radius: 10px;border-width: 2px;border-color: black;border-style: solid;display: block;}.body {background: #fff;}.metric {padding: 10%;}.metric svg {max-width: 100%;}.metric path {stroke-width: 75;stroke: #ecf0f1;fill: none;}.metric text {font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;}.metric.participation path.data-arc {stroke: ' + color + ';}.metric.participation text {fill: ' + color + ';}';
+				//this.$svg.innerHTML = '<path d="M 950 500 A 450 450 0 0 0 50 500"></path><text class="percentage" text-anchor="middle" alignment-baseline="middle" x="500" y="300" font-size="140" font-weight="bold">' + rounded + '%</text><text class="title" text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal">' + info + '</text><path d="' + x + '" class="data-arc"></path>"';
 			}
 		}
 		  
